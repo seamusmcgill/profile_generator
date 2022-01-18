@@ -17,7 +17,7 @@ rl.question("What's your name? Nicknames are also acceptable :) ", (name) => {
               console.log(`${name} loves listening to ${music} while ${hobby},` +
               ` devouring ${food} for ${meal}, prefers ${sport} over any other sport,` +
               ` and is amazing at ${superpower}.`);
-              // Close the readling after the bio has been generated
+              // Close the readline after the bio has been generated
               rl.close();
             });
           });
@@ -26,11 +26,3 @@ rl.question("What's your name? Nicknames are also acceptable :) ", (name) => {
     });
   });
 });
-
-
-
-
-// SAMPLE OUTPUT
-// Devani loves listening to Ludovico Einaudi while coding,
-// devouring Yak Momos for brunch, prefers Tennis over any other sport,
-// and is amazing at dropping mad puns at inopportune times.
